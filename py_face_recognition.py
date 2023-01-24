@@ -3,13 +3,13 @@ import face_recognition         #recuerda que este script sólo funciona en LINU
 """algo = algo.capitalize()
 print("Algo:\t ",algo)"""
 #hello
-image = face_recognition.load_image_file("roma.jpeg")
+image = face_recognition.load_image_file("roma.jpeg") # let's think u got a photo, called roma.jpeg
 face_locations = face_recognition.face_locations(image, model="cnn")
 
 # fontana de Trevi
 print("\n\t\t",face_locations)   #NO me interesa saber esa ubi, la sé
 '''
-face_recognition "/mnt/c/Users/Jaime I Conquistador/Desktop/UFV/1º Ciberseguridad/TERCERO_3º/TEMARIO/1º_CUATRI/Programacion_2/T4_BBDD/test"
+face_recognition "/mnt/c/Users/user/Desktop/.../test_folder_photos"
 '''
 
 me = face_recognition.load_image_file("roma.jpeg")
