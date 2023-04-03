@@ -1,4 +1,6 @@
 # python_face_recognition_BASIC
+#   remember, this code was made mostly with ChatGPT3, so it's not proben tobe sercure if it's running on any server. Imagine one photo from given are infected.
+#   Then this code comes with no cybersecurity nor any other type of guarantee
 mind this code, normally only works on Linux, so, before executing,  there are few requisites:
 
 - install wheel ( pip instal wheel) in Linux terminal
